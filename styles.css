@@ -1,3 +1,17 @@
 #banner {
     font-family: "Sofia", sans-serif;
 }
+#picture {
+    background-image: url(./images/benjamin-suter-unsplash.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+#left {
+    
+}
+
+#right {
+
+}
