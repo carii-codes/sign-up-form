@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--txt);
+    outline: 1px solid red;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#banner {
+    font-family: "Sofia", sans-serif;
+}
+
+#picture {
+    background: url(https://www.westend61.de/images/0001518889pw/sheep-in-the-english-countryside-at-sunset-CAVF92741.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+#left {
+    padding-left: 3vw;
+}
+
+#logo {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#right {
+    width: 60vw;
+    background-color: #000000;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
