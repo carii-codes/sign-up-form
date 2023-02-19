@@ -6,11 +6,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     color: var(--txt);
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 body {
     background-color: whitesmoke;
+    padding-bottom: 100px;
 }
 
 #banner {
@@ -50,23 +51,30 @@ body {
     width: 60%;
     background-color: #f608082a;
     position: relative; left: 580px; top: 1px;
+    height: 1px;
 }
 
 #intro {
-    position: relative; top: -650px; left: 80px;
+    position: relative; top: -650px; left: -5px;
     border: 1px solid black;
-    width: 600px;
+    width: 900px;
+    height: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
     font-size: 20px;;
     background-color: white;
     font-family: 'Roboto', sans-serif;
 } 
 
 #form {
-    width: 600px;
-    position: relative; top: -500px; left: 80px;
+    width: 865px;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative; top: -550px; left: -3px;
     background-color: white;
     font-family: 'Roboto', sans-serif;
-
+    box-shadow: 10px 10px 30px 15px #504f4fa2;
 }
 
 #banner {
