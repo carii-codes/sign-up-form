@@ -55,24 +55,23 @@ body {
 }
 
 #intro {
-    position: relative; top: -700px; left: -5px;
-    border: 1px solid black;
+    position: relative; top: -750px; left: -5px;
     width: 869px;
     height: 200px;
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 20px;
     font-size: 20px;;
-    background-color: white;
+    background-color: whitesmoke;
     font-family: 'Roboto', sans-serif;
 } 
 
 #form {
     width: 865px;
     padding-left: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    position: relative; top: -600px; left: -3px;
+    padding-top: 80px;
+    padding-bottom: 1px;
+    position: relative; top: -700px; left: -3px;
     background-color: white;
     font-family: 'Roboto', sans-serif;
     box-shadow: 10px 10px 30px 15px #504f4fa2;
@@ -90,16 +89,16 @@ body {
     width: 40vw;
 }
  #haveAccount {
-   position: relative; top: -550px; left: 200px;
+   position: relative; top: -670px; left: 196px;
    width: 200px;
  }
 
 button {
-    position: relative; top: -500px; left: 200px;
+    position: relative; top: -600px; left: 200px;
 }
 
 #logIn,  {
-    position: relative; top: -359px; left: 400px;
+    position: relative; top: -600px; left: 400px;
 }
 
 .firstName, #fname {
@@ -120,4 +119,33 @@ button {
 
 .pword, #pword {
     position: relative; left: -40px;
+}
+
+.phone {
+    position: relative; left: 138px;
+}
+
+.cpword {
+    position: relative; left: 109px;
+}
+
+input {
+    margin-bottom: 40px;
+}
+
+label {
+    margin-top: 20px;
+}
+
+#doIt {
+    position: relative; top: -50px; left: -42px;
+}
+
+#one, #two {
+    margin-bottom: 25px;
+}
+
+#one, #two, #three {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
