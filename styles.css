@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Pacifico&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -10,7 +10,7 @@
 }
 
 body {
-    
+    background-color: whitesmoke;
 }
 
 #banner {
@@ -25,7 +25,7 @@ body {
     font-family: 'Pacifico', cursive;
     font-size: 35px;
     font-weight: 800;
-    position: relative; left: 250px; top: 30px;
+    position: relative; left: 250px; top: 20px;
     width: 300px;
 }
 
@@ -43,6 +43,7 @@ body {
     height: 10px;
     padding: 0px;
     margin: 0px;
+    position: relative; top: 65px; left: 100px;
 }
 
 #right {
@@ -52,15 +53,20 @@ body {
 }
 
 #intro {
-    position: relative; top: -650px; left: 60px;
+    position: relative; top: -650px; left: 80px;
     border: 1px solid black;
     width: 600px;
     font-size: 20px;;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
 } 
 
 #form {
     width: 600px;
-    position: relative; top: -500px;
+    position: relative; top: -500px; left: 80px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 #banner {
@@ -73,4 +79,16 @@ body {
     background-size: auto;
     background-repeat: no-repeat;
     width: 40vw;
+}
+ #haveAccount {
+   position: relative; top: -450px; left: 200px;
+   width: 200px;
+ }
+
+button {
+    position: relative; top: -400px; left: 200px;
+}
+
+#logIn {
+    position: relative; top: -469px; left: 400px;
 }
